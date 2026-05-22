@@ -1,35 +1,49 @@
-# React - Extra: Buscador de personajes de Rick y Morty
+# Rick & Morty Finder
 
-- Listado de personajes de Rick y Morty
-- Input para buscar por nombre
-- Paginación
+A React-based application for viewing Rick & Morty characters. Users can search for different characters and navigate to the details.
+
+This project was created to practice React fundamentals.
+
+## Features
+
+- List of Rick & Morty characters.
+- Input for searching characters.
+- Navigation to details page.
+- Filter persistence when returning from details.
+- Pagination
+
+## Technologies
+
+- React
+- TypeScript
+- React Router
 - Material UI
-- Página de detalle
+- Vite
 
-# Cómo ver el proyecto
+## APIs
 
-## Requisitos
+- Rick and Morty API
 
-- Node.js
-- npm
-
-## Cómo ejecutar
-
-1. Clonar el repositorio
+## Installation
 
 ```bash
-git clone <url-del-repositorio>
-cd <nombre-del-proyecto>
+git clone https://github.com/sonia-calderon/rickandmorty-finder.git
+
+cd rickandmorty-finder
+
+pnpm install
+
+pnpm start
 ```
 
-2. Instalar dependencias
+## Deployment
 
-```bash
-npm install
-```
+Live Demo:
 
-3. Levantar el servidor en desarrollo
+https://sonia-calderon.github.io/rickandmorty-finder/
 
-```bash
-npm start
-```
+## Author
+
+Sonia Calderón:
+
+https://github.com/sonia-calderon/
